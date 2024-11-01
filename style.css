@@ -1,0 +1,93 @@
+body
+{
+    background-color: rgba(247, 247, 247, 0.993);
+}
+/* Define a imagem como fundo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('desenho.png'); /* Caminho da imagem */
+    background-size: cover; /* A imagem cobre toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    width: 100vw; /* Ocupa toda a largura da tela */
+}
+
+/*barra de navegaçao*/
+.NavBar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border: 6px  #000000; /* Borda  */
+    border-radius: 15px; /* Aumente o valor para bordas mais arredondadas */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Sombra*/
+}
+
+.logo {
+    margin-right: 800px; /* Espaçamento entre a logo e a navegação */
+    font: normal 20pt Arial;
+    
+}
+
+.navigation a {
+    margin-left: 25px;  /* Espaçamento entre os links */
+    text-decoration: none; /* Remove o sublinhado */
+    color: #333; /* Cor do texto */
+    font: normal 15pt Arial;
+}
+
+.navigation a:hover {
+    color: #339e25; /* Cor do texto ao passar o mouse */
+}
+      
+
+/*barra de pesquisa*/
+
+.search-container {
+    display: flex; /* Usar flexbox para centralizar */
+    justify-content: center; /* Centraliza horizontalmente */
+    margin-top: 200px ; /* Margem superior e inferior */
+}
+
+.search-input {
+    width: 900px; /* Largura da barra de pesquisa */
+    height: 30px;
+    padding: 10px; /* Espaçamento interno */
+    border: 3px solid #322e47; /* Borda */
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.square1{
+ 
+    padding: 3%;
+    width: 5%;
+    height: 10px;
+    margin: 100px;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+/* Centraliza o contêiner na tela */
+.container {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite que os quadrados fiquem em linha */
+    height: 100vh; /* Ocupa toda a altura da tela */
+}
+
+/* Estilos comuns para todos os quadrados */
+.square {
+    padding: 3%;
+    width: 2%;
+    height: 10px;
+    margin: 30px; /* Ajusta o espaço entre os quadrados */
+    border: 1px solid rgb(151, 146, 146);
+    background-color: white;
+    box-shadow: 1px 9px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
