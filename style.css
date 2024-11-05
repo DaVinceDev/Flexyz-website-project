@@ -3,6 +3,7 @@ body
     background-color: rgba(247, 247, 247, 0.993);
 }
 /* Define a imagem como fundo da página */
+/* Estilo geral para o corpo */
 body {
     margin: 0;
     padding: 0;
@@ -13,6 +14,10 @@ body {
     height: 100vh; /* Ocupa toda a altura da tela */
     width: 100vw; /* Ocupa toda a largura da tela */
 }
+
+
+
+
 
 /*barra de navegaçao*/
 .NavBar {
@@ -39,7 +44,7 @@ body {
 }
 
 .navigation a:hover {
-    color: #339e25; /* Cor do texto ao passar o mouse */
+    color: #2bbe18; /* Cor do texto ao passar o mouse */
 }
       
 
@@ -70,7 +75,7 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 15px;
 }
-
+/*Alguns trabalhos frreelancer*/
 /* Centraliza o contêiner na tela */
 .container {
     display: flex;
@@ -88,6 +93,77 @@ body {
     margin: 30px; /* Ajusta o espaço entre os quadrados */
     border: 1px solid rgb(151, 146, 146);
     background-color: white;
-    box-shadow: 1px 9px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 9px 8px rgba(1, 1, 1, 0.1);
     border-radius: 15px;
+
+
+}
+
+.square:hover {
+    transform: scale(1.1); /* Aumenta o tamanho */
+    border-color: rgb(57, 158, 65); /* Muda a cor da borda */
+}
+
+/*INFORMACOES DO SITER!Dz*/
+.inform{
+
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    flex-wrap: wrap; /* Permite que os quadrados fiquem em linha */
+    height: 100vh; /* Ocupa toda a altura da tela */
+   
+}
+
+
+.inf{
+    /*parte do texto*/
+    font: 10px Arial;
+    margin-top: 0px;
+    text-align:justify;
+    /*Parte do quadrado*/
+    padding: 5%;
+    width: 7%;
+    height: 40px;
+    margin:50px; /* Ajusta o espaço entre os quadrados */
+    border: 1px solid rgb(151, 146, 146);
+    background-color: white;
+    box-shadow: 1px 9px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 15px;
+    border: 1px solid black;
+    border-radius:15px ;
+}
+
+
+.pergunta{
+   
+    color: rgb(172, 218, 163);
+    font: normal 40pt Arial;
+    text-align: center;
+   
+
+}
+
+.junte-se{
+    margin-left: 20px;
+    background-color: rgba(206, 236, 216, 0.521);
+    padding: 10%;
+    width: 76%;
+    height: 3%;
+    border:90px transparent rgba(206, 236, 216, 0.726);
+    border-radius:15px ;
+}
+
+.omg{
+     font: 70px Arial;
+     color: rgb(17, 106, 141);
+}
+
+.regis-cont{
+    padding: 10%;
+    height: 5px;
+    border:8px #fdb5b5;
+    border-radius: 5%;
+    box-shadow: 1px 2px 2px #000000;
+    
 }
