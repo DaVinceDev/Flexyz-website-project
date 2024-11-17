@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Login</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para seu CSS -->
+</head>
+<body>
+    <div>
+        <h1 class="Login">Login</h1>
+        <form action="seu_script_de_login.php" method="POST">
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
+            </div>
+            <div>
+                <label for="confsenha">Confirme a Senha:</label>
+                <input type="password" id="confsenha" name="confsenha" required>
+            </div>
+            <h3>Entrar como:</h3>
+            <div>
+                <button type="submit" name="role" value="lancer">Lancer</button>
+                <button type="submit" name="role" value="cliente">Cliente</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
