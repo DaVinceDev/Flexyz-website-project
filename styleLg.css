@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url('loginpage.png'); /* Caminho da imagem */
+    background-size: cover; /* A imagem cobre toda a tela */
+    background-position: center; /* Centraliza a imagem */
+    background-repeat: no-repeat; /* Evita repetição da imagem */
+    height: 100vh; /* Ocupa toda a altura da tela */
+    width: 100%; /* Ocupa toda a largura da tela */
+    font-family: 'Avenir Light', sans-serif;
+    align-items: center;
+    overflow: hidden;
+    background-color: azure;
+ 
+    
+}
+
+.loginpg{
+    margin: 50px  500px 0px 500px;
+    width: 450px;
+    height: 500px;
+    background-color: #609599;
+    border-radius: 5%;
+    padding: 5%;
+    box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+.Login{
+    /*parte do texto*/
+   text-align: center;
+   font-weight: 300;
+   color: rgb(255, 255, 255);
+}
+
+
+.email{
+    margin-top: 30px;
+    width: 350px; /* Largura da barra de pesquisa */
+    height: 5px;
+    padding: 15px; /* Espaçamento interno */
+    border: 2px solid white;
+    background-color: #ffff;
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 14px;
+    
+}
+
+.senha{
+    margin-top: 30px;
+    width: 350px; /* Largura da barra de pesquisa */
+    height: 5px;
+    padding: 15px; /* Espaçamento interno */
+    border: 2px solid white;
+    background-color: #ffff;
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 14px;
+    
+}
+
+
+.confsenha{
+    margin-top: 30px;
+    width: 350px; /* Largura da barra de pesquisa */
+    height: 5px;
+    padding: 15px; /* Espaçamento interno */
+    border: 2px solid white;
+    background-color: #ffff;
+    border-radius: 20px; /* Bordas arredondadas */
+    font-size: 14px;
+    
+}
+
+
+.entrar{
+    font-size: 25px;
+    font-weight: 200;
+    color: white;
+}
+
+.lancer{
+    font-size: 20px;
+    margin: 50px;
+    color: white;
+    background-color: #243642;
+    width: 150px;
+    height: 50px;
+    border: 3px solid #243642;
+    border-radius: 15px;
+
+}
+
+.clint{
+    font-size: 20px;
+    color: white;
+    background-color: #243642;
+    width: 150px;
+    height: 50px;
+    border: 3px solid #243642;
+    border-radius: 15px;
+}

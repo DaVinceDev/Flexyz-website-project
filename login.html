@@ -3,29 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página de Login</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Link para seu CSS -->
+    <title>Login</title>
+    <link rel="stylesheet" href="styleLg.css"> <!-- Link para seu CSS -->
 </head>
 <body>
-    <div>
+    <div class="loginpg">
         <h1 class="Login">Login</h1>
-        <form action="seu_script_de_login.php" method="POST">
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
+        <form action="script.php" method="POST">
+            <div >
+                <input type="email" id="email" name="email" placeholder="Digite o seu e-mail"  class="email" required>
             </div>
             <div>
-                <label for="senha">Senha:</label>
-                <input type="password" id="senha" name="senha" required>
+                
+                <input type="password" id="senha" name="senha"  placeholder="Digite uma senha" class="senha" required>
             </div>
             <div>
-                <label for="confsenha">Confirme a Senha:</label>
-                <input type="password" id="confsenha" name="confsenha" required>
+                <input type="password" id="confsenha" name="confsenha" placeholder="Confirme a senha"    class="confsenha" required>
             </div>
-            <h3>Entrar como:</h3>
+            <h3 class="entrar">Entrar como:</h3>
             <div>
-                <button type="submit" name="role" value="lancer">Lancer</button>
-                <button type="submit" name="role" value="cliente">Cliente</button>
+                <button type="submit" name="role" value="lancer" class="lancer">Lancer</button>
+                <button type="submit" name="role" value="cliente" class="clint">Cliente</button>
             </div>
         </form>
     </div>
