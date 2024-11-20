@@ -30,9 +30,12 @@ body {
     align-items: center;
     padding: 15px;
     background-color: #f8f8f8;
-    border: 6px  #000000; /* Borda  */
+    border-bottom: 6px  #000000; /* Borda  */
     border-radius: 15px; /* Aumente o valor para bordas mais arredondadas */
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Sombra*/
+      position: sticky;
+            top: 0; /* Fica no topo da página */
+            z-index: 1000; /* Garante que fique acima de outros elementos */
 
 }
 
@@ -94,6 +97,8 @@ body {
     align-items: center; /* Centraliza verticalmente */
     flex-wrap: wrap; /* Permite que os quadrados fiquem em linha */
     height: 100vh; /* Ocupa toda a altura da tela */
+    
+    
 }
 
 /* Estilos comuns para todos os quadrados */
@@ -110,6 +115,7 @@ body {
     justify-content: space-around; /* Centraliza horizontalmente */
     align-items: center; /* Centraliza verticalmente */
     text-align: center; /* Centraliza o texto, caso haja mais de uma linha */
+ 
    
     
 }
@@ -119,6 +125,10 @@ body {
    
 }
 
+.square a{
+    color: #333;
+    text-decoration: none;
+}
 /*INFORMACOES DO SITER!Dz*/
 .inform{
 
@@ -141,7 +151,7 @@ body {
     width: 7%;
     height: 60px;
     margin:50px; /* Ajusta o espaço entre os quadrados */
-    font-size: 8.9pt;
+    font-size: 9pt;
  
     background-color: white;
     box-shadow: 1px 9px 8px rgba(0, 0, 0, 0.1);
@@ -165,7 +175,7 @@ body {
 }
 
 .junte-se{
-    background-color: #58888bb0;
+    background-color: #243642;
     background-size: 1500px;
     background-repeat: no-repeat;
     margin-left: 20px;
@@ -174,7 +184,8 @@ body {
     width: 76%;
     height: 3%;
     border:90px transparent rgba(206, 236, 216, 0.726);
-    border-radius:45px ;
+    border-radius:75px ;
+    box-shadow: 1px 9px 8px rgba(1, 1, 1, 0.1);
  
 }
 
@@ -182,7 +193,7 @@ body {
 
 .omg    {
      
-     color:#243642;
+     color:#E2F1E7;;
 }
 
 .bttn{
@@ -202,12 +213,13 @@ body {
     border-color: #ffffff;
     background-color: #ffffff;
     color: #387478;
+   
 }
 
 .rodape{
-    margin-top: 100px;
+    margin-top: 200px;
     border: 3px solid #387478;
     background-color: #387478;
-
+    color: #E2F1E7;
     text-align: center;
 }

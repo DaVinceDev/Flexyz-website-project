@@ -1,0 +1,82 @@
+body{
+    background-color: #f0f0f0ff;
+    font-family: 'Avenir Light', sans-serif;
+}
+
+.NavBar {
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f8f8f8;
+    border: 6px  #000000; /* Borda  */
+    border-radius: 15px; /* Aumente o valor para bordas mais arredondadas */
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Sombra*/
+    position: sticky;
+    top: 0; /* Fica no topo da página */
+    z-index: 1000; /* Garante que fique acima de outros elementos */
+
+}
+
+.logo {
+    margin-right: 800px; /* Espaçamento entre a logo e a navegação */
+    font-size: 20pt;
+   
+    
+}
+
+.navigation a {
+    
+    line-height: 60px;
+    margin-left: 25px;  /* Espaçamento entre os links */
+    text-decoration: none; /* Remove o sublinhado */
+    color: #333; /* Cor do texto */
+    font-size: 15pt;
+
+}
+
+.navigation a:hover {
+    color: #2bbe18; /* Cor do texto ao passar o mouse */
+}
+  
+
+.Designers{
+     text-align: start;
+    
+}
+
+
+.Vendas{
+    border-top: 1px solid #00000052;
+    width: 100%;
+    margin: 20px 0;
+}
+
+
+.prog{
+
+    border-top: 1px solid #00000052;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.Artes{
+    border-top: 1px solid #00000052;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.edit{
+
+    border-top: 1px solid #00000052;
+    width: 100%;
+    margin: 20px 0;
+
+}
+
+.outros{
+    border-top: 1px solid #00000052;
+    width: 100%;
+    margin: 20px 0;
+
+}
