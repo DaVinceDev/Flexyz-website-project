@@ -1,6 +1,11 @@
+
+
 body
 {
-    background-color: rgba(247, 247, 247, 0.993);
+    background-color: #f0f0f0ff;
+    
+    font-family: 'Avenir Light', sans-serif;
+  
 }
 /* Define a imagem como fundo da página */
 /* Estilo geral para o corpo */
@@ -12,69 +17,78 @@ body {
     background-position: center; /* Centraliza a imagem */
     background-repeat: no-repeat; /* Evita repetição da imagem */
     height: 100vh; /* Ocupa toda a altura da tela */
-    width: 100vw; /* Ocupa toda a largura da tela */
+    width: 100%; /* Ocupa toda a largura da tela */
+    overflow:inherit
+   
+    
 }
-
-
-
-
 
 /*barra de navegaçao*/
 .NavBar {
+    height: 30px;
     display: flex;
     align-items: center;
-    padding: 10px;
+    padding: 15px;
     background-color: #f8f8f8;
-    border: 6px  #000000; /* Borda  */
+    border-bottom: 6px  #000000; /* Borda  */
     border-radius: 15px; /* Aumente o valor para bordas mais arredondadas */
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1); /* Sombra*/
+      position: sticky;
+            top: 0; /* Fica no topo da página */
+            z-index: 1000; /* Garante que fique acima de outros elementos */
+
 }
 
 .logo {
     margin-right: 800px; /* Espaçamento entre a logo e a navegação */
-    font: normal 20pt Arial;
+    font-size: 20pt;
+   
     
 }
 
 .navigation a {
+    
+    line-height: 60px;
     margin-left: 25px;  /* Espaçamento entre os links */
     text-decoration: none; /* Remove o sublinhado */
     color: #333; /* Cor do texto */
-    font: normal 15pt Arial;
+    font-size: 15pt;
+
 }
 
 .navigation a:hover {
     color: #2bbe18; /* Cor do texto ao passar o mouse */
 }
-      
+  
+.slogan{
+  font-size: 20pt;
+  color: #387478;
+  text-align: center;
+ 
+
+}
+
 
 /*barra de pesquisa*/
 
 .search-container {
     display: flex; /* Usar flexbox para centralizar */
     justify-content: center; /* Centraliza horizontalmente */
-    margin-top: 200px ; /* Margem superior e inferior */
+    position: center;
+    margin-top: 80px;
 }
 
 .search-input {
-    width: 900px; /* Largura da barra de pesquisa */
+    width: 800px; /* Largura da barra de pesquisa */
     height: 30px;
-    padding: 10px; /* Espaçamento interno */
-    border: 3px solid #322e47; /* Borda */
-    border-radius: 20px; /* Bordas arredondadas */
-    font-size: 16px; /* Tamanho da fonte */
+    padding: 15px; /* Espaçamento interno */
+    border: 3px solid #387478; /* Borda */
+    background-color: #ffff;
+    border-radius: 230px; /* Bordas arredondadas */
+    font-size: 14px; /* Tamanho da fonte */
 }
 
-.square1{
- 
-    padding: 3%;
-    width: 5%;
-    height: 10px;
-    margin: 100px;
-    border: 1px solid rgb(173, 173, 173);
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    border-radius: 15px;
-}
+
 /*Alguns trabalhos frreelancer*/
 /* Centraliza o contêiner na tela */
 .container {
@@ -83,6 +97,8 @@ body {
     align-items: center; /* Centraliza verticalmente */
     flex-wrap: wrap; /* Permite que os quadrados fiquem em linha */
     height: 100vh; /* Ocupa toda a altura da tela */
+    
+    
 }
 
 /* Estilos comuns para todos os quadrados */
@@ -91,19 +107,28 @@ body {
     width: 2%;
     height: 10px;
     margin: 30px; /* Ajusta o espaço entre os quadrados */
-    border: 1px solid rgb(151, 146, 146);
+  
     background-color: white;
     box-shadow: 1px 9px 8px rgba(1, 1, 1, 0.1);
     border-radius: 15px;
-
-
+    display: flex; /* Ativa o modelo de flexbox */
+    justify-content: space-around; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align: center; /* Centraliza o texto, caso haja mais de uma linha */
+ 
+   
+    
 }
 
 .square:hover {
     transform: scale(1.1); /* Aumenta o tamanho */
-    border-color: rgb(57, 158, 65); /* Muda a cor da borda */
+   
 }
 
+.square a{
+    color: #333;
+    text-decoration: none;
+}
 /*INFORMACOES DO SITER!Dz*/
 .inform{
 
@@ -118,52 +143,83 @@ body {
 
 .inf{
     /*parte do texto*/
-    font: 10px Arial;
+  
     margin-top: 0px;
-    text-align:justify;
+   
     /*Parte do quadrado*/
     padding: 5%;
     width: 7%;
-    height: 40px;
+    height: 60px;
     margin:50px; /* Ajusta o espaço entre os quadrados */
-    border: 1px solid rgb(151, 146, 146);
+    font-size: 9pt;
+ 
     background-color: white;
     box-shadow: 1px 9px 8px rgba(0, 0, 0, 0.1);
     box-shadow: 15px;
-    border: 1px solid black;
+  
     border-radius:15px ;
+    display: flex; /* Ativa o modelo de flexbox */
+    justify-content:center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    text-align:center; /* Centraliza o texto, caso haja mais de uma linha */
 }
 
 
 .pergunta{
    
-    color: rgb(172, 218, 163);
-    font: normal 40pt Arial;
+    color: #E2F1E7;
+    font-size: 35pt;
     text-align: center;
    
 
 }
 
 .junte-se{
+    background-color: #243642;
+    background-size: 1500px;
+    background-repeat: no-repeat;
     margin-left: 20px;
-    background-color: rgba(206, 236, 216, 0.521);
+    font-size: 40pt;
     padding: 10%;
     width: 76%;
     height: 3%;
     border:90px transparent rgba(206, 236, 216, 0.726);
-    border-radius:15px ;
+    border-radius:75px ;
+    box-shadow: 1px 9px 8px rgba(1, 1, 1, 0.1);
+ 
 }
 
-.omg{
-     font: 70px Arial;
-     color: rgb(17, 106, 141);
+
+
+.omg    {
+     
+     color:#E2F1E7;;
 }
 
-.regis-cont{
-    padding: 10%;
-    height: 5px;
-    border:8px #fdb5b5;
-    border-radius: 5%;
-    box-shadow: 1px 2px 2px #000000;
+.bttn{
+    text-decoration: none;
+    font-size: 30px;
+    margin: 50px;
+    color: #ffffff;;
+    background-color: #387478;
+    width: 270px;
+    height: 60px;
+    border: 3px solid #387478;
+    border-radius: 40px;
+}
+
+.bttn:hover{
     
+    border-color: #ffffff;
+    background-color: #ffffff;
+    color: #387478;
+   
+}
+
+.rodape{
+    margin-top: 200px;
+    border: 3px solid #387478;
+    background-color: #387478;
+    color: #E2F1E7;
+    text-align: center;
 }

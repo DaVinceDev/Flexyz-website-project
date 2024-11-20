@@ -3,97 +3,84 @@
   <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Flexyz</title>
-        <link rel="stylesheet" type="text/css" href="style.css"
+        <title>Angolancers</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
         
 </head>
 <body>
        <!--BARRA DE NAVEGAÇAO -->
-       <header>
+       <header class="media">
         <nav class="NavBar">
           <div class="logo">
-              <a href="#">Flexyz</a>
+              <a href="index.html" id="start-btn">Angolancers</a>
           </div>
           <div class="navigation">
-              <a href="#">Flexyz Pro</a>
-              <a href="#">Explore</a>
-              <a href="#">Login</a>
-              <a href="#" id="login-btn">Entrar</a>
-          </div>
-       
-          
+              <a href="#">Angolancers Pro</a>
+              <a href="explore.html" id="explore-btn">Explore</a>
+              <a href="login.html" id="login-btn">Login</a>
+              <a href="enter.html" id="enter-btn">Entrar</a>
+          </div> 
       </nav>
+      <div class="slogan">
+      <h1> Seu Futuro Começa Aqui!</h1>
+      </div>
       <div class="search-container">
         <input type="text" placeholder="Pesquisar..." class="search-input">
         
     </div>
-    <!--imagens de fundo-->
+
     
    
     <!---quadradinhos--->
     <div class="container">
         <div class="square square1">
-          <p>Design gráfico</p>
+          <a href="explore.html">Design gráfico</a>
         </div>
         
         <div class="square square2">
-          <p>Vendas online</p>
+          <a href="explore.html">Vendas online</a>
         </div>
         <div class="square square3">
-          <p> Programação</p>
+          <a href="explore.html"> Programação</a>
         </div>
         <div class="square square4">
-          <p>Artes Digitais</p>
+          <a href="explore.html">Artes Digitais</a>
         </div>
         <div class="square square5">
-           <p>Edição<br> de <br> vídeo</p></div>
+           <a href="explore.html">Edição<br> de <br> vídeo</a></div>
         <div class="square square6">
-          <p>Outros</p>
+          <a href="explore.html">Outros</a>
         </div>
     </div>
     <h1 class="pergunta"> Oque é o nosso site?</h1>
     <div class="inform">
-           <p class="inf inf3"></p>
-           <p class="inf inf2"></p>
+           <p class="inf inf3">
+            Temos a inteção de fazer crescer a comunidade
+            freelancer angolana com várias opções de trabalhos disponíveis.
+
+           </p>
+           <p class="inf inf2">Queremos facilitar
+            o encontro de clientes facilitando o 
+            trabalho e esforço de freelancers do país.
+           </p>
             <p class="inf inf1"> 
-            Nós somos um site com o objectivo de ajudar<br>
-            freelancers sem sair de casa, de uma forma mais <br>
+            Nós somos um site com o objectivo de  ajudar
+          freelancers sem sair de casa, de uma forma mais 
             facil, segura e rápida. </p>
     </div>
 
     <div class="junte-se">
-      <p class="omg">Junte-se a nossa equipe de freelancers
-        e encontre clientes mais rápido e facilite o seu trabalho.</p>
+      <p class="omg">Junte-se a nós e encontre clientes mais rápido e freelancers
+               dispostos a ajudar no que precisar.</p>
+     <form action="login.html" method="POST">
+        <button type="submit" name="role" value="junte-se"class="bttn" >Juntar-se</button>
+     </form>
     </div>
-    
+    <div class="rodape">
+     <p>&copy; 2024 Angolancers. Todos os direitos reservados.</p>
+    </div>
     </header>
 
-
-            
-  <!-- Área de Registro -->
-
-  <div class="regis-cont">
-    <h2>Crie já a sua Conta</h2>
-    <form class="registro-form">
-      <label for="username">Nome de Usuário</label>
-      <input type="text" id="username" name="username" placeholder="Escolha um nome de usuário" required>
-
-      <label for="email">Email</label>
-      <input type="email" id="email" name="email" placeholder="Digite seu email" required>
-
-      <label for="password">Senha</label>
-      <input type="password" id="password" name="password" placeholder="Crie uma senha" required>
-
-      <label for="confirm-password">Confirme a Senha</label>
-      <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirme sua senha" required>
-
-      <button type="submit" class="registro-btn">Registrar</button>
-
-      <div class="registro-options">
-        <p>Já tem uma conta? <a href="Entrar.html">Faça login</a></p>
-      </div>
-    </form>
-  </div>
 
 </body>
 </html>
