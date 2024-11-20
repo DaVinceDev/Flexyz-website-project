@@ -1,26 +1,17 @@
 body{
-    margin: 0;
-    padding: 0;
-    background-image: url('loginpage.png'); /* Caminho da imagem */
-    background-size: cover; /* A imagem cobre toda a tela */
-    background-position: center; /* Centraliza a imagem */
-    background-repeat: no-repeat; /* Evita repetição da imagem */
-    height: 100vh; /* Ocupa toda a altura da tela */
-    width: 100%; /* Ocupa toda a largura da tela */
+   
     font-family: 'Avenir Light', sans-serif;
     align-items: center;
     overflow: hidden;
-    background-color: azure;
- 
-    
+    background-color: rgb(236, 253, 255);
 }
 
 .loginpg{
-    margin: 50px  500px 0px 500px;
+    margin: 50px  450px 0px 450px;
     width: 450px;
-    height: 500px;
-    background-color: #609599;
-    border-radius: 5%;
+    height: 550px;
+    background-color: #73a393ff;
+    border-radius: 12%;
     padding: 5%;
     box-shadow: 0 8px 5px rgba(0, 0, 0, 0.2);
 
@@ -31,15 +22,18 @@ body{
 
 .Login{
     /*parte do texto*/
+   
+   font-size: 30pt;
    text-align: center;
    font-weight: 300;
    color: rgb(255, 255, 255);
+   
 }
 
 
 .email{
     margin-top: 30px;
-    width: 350px; /* Largura da barra de pesquisa */
+    width: 400px; /* Largura da barra de pesquisa */
     height: 5px;
     padding: 15px; /* Espaçamento interno */
     border: 2px solid white;
@@ -51,7 +45,7 @@ body{
 
 .senha{
     margin-top: 30px;
-    width: 350px; /* Largura da barra de pesquisa */
+    width: 400px; /* Largura da barra de pesquisa */
     height: 5px;
     padding: 15px; /* Espaçamento interno */
     border: 2px solid white;
@@ -64,7 +58,7 @@ body{
 
 .confsenha{
     margin-top: 30px;
-    width: 350px; /* Largura da barra de pesquisa */
+    width: 400px; /* Largura da barra de pesquisa */
     height: 5px;
     padding: 15px; /* Espaçamento interno */
     border: 2px solid white;
@@ -84,21 +78,50 @@ body{
 .lancer{
     font-size: 20px;
     margin: 50px;
-    color: white;
-    background-color: #243642;
+    color: #243642;;
+    background-color: #ffffff;
     width: 150px;
     height: 50px;
-    border: 3px solid #243642;
-    border-radius: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+
+}
+
+.lancer:hover{
+    border-color: #243642 ;
+    color: #ffffff;
+    background-color: #243642;
 
 }
 
 .clint{
     font-size: 20px;
-    color: white;
-    background-color: #243642;
+    color: #243642;;
+    background-color: #ffffff;
     width: 150px;
     height: 50px;
-    border: 3px solid #243642;
-    border-radius: 15px;
+    border: 3px solid #ffffff;
+    border-radius: 30px;
 }
+
+.clint:hover{
+    border-color: #243642 ;
+    color: #ffffff;
+    background-color: #243642;
+
+}
+
+.enterl{
+
+    text-align: center;
+}
+
+body{
+    width: 100%;
+    height: 500px; /* Defina a altura desejada */
+    background-image: url('loginpage.png'); /* Substitua pelo caminho da sua imagem */
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem */
+}
+
+                                                                                 
